@@ -26,7 +26,7 @@ def tos3(BUCKET_NAME, day, filename):
         s3_client.upload_fileobj(f, BUCKET_NAME, "12"+str(day)+"/"+filename)
 
 
-BUCKET_NAME = 'tdcs-m06a-2022-12'
+BUCKET_NAME = 'your bucket name'
 year = 2022
 month = 12
 daystart = 1
